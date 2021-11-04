@@ -1,19 +1,19 @@
 TODO List:
-  + Alias name for pattern (Maybe latter)
+  [X] Alias name for pattern (Maybe latter)
 
-  + Setup material for punish function (how much point to punish)
+  [X] Setup material for punish function (how much point to punish)
 
-  + Implement punish function 
+  [X] Implement punish function 
 
-  + Implement function to get MxN matrix
+  [X] Implement function to get MxN matrix
 
-  + Construct dictionary
+  [] Construct dictionary
 
-  + Implement beamsearch
+  [X] Implement beamsearch
 
-  + Implement beamsearch with CTC decode
+  [] Implement beamsearch with CTC decode
 
-  + Magic to get better point
+  [] Magic to get better point
 
 
   Summarize:
@@ -26,6 +26,9 @@ TODO List:
 
   chụm -> A
   xòe  -> B
+  chụm_trỏ -> C
+  duỗi ->   D
+  duỗi_cái -> E
 
   Problem with direction: cannot tracking hand is in state upside or downside
     -> Some word will be need determine is upside or downside to get correct result
@@ -48,7 +51,88 @@ TODO List:
       OUTPUT EXPECTED -> [(A,MOUTH,_),_,(B,CHEST,FORWARD),_,_]
       MODULE DECODE OUTPUT -> WORD
 
+```
+  Hand State Example:
+    { 
+      PATTERN: (_,A),
+      LOCATION: (_,MOUTH),
+      DIRECTION: (_,_) 
+    },
+    { 
+      PATTERN: (_,B),
+      LOCATION: (_,CHEST),
+      DIRECTION: (_,FORWARD) 
+    }
+    { 
+      PATTERN: (_,C),
+      LOCATION: (_,CHEST),
+      DIRECTION: (_,BACKWARD) 
+    }
+    { 
+      PATTERN: (_,C),
+      LOCATION: (_,CHEST),
+      DIRECTION: (_,FORWARD) 
+    }
+    {
+      PATTERN: (A,D),
+      LOCATION: (CHEST,CHEST),
+      DIRECTION: (DOWN,LEFT)
+    }
+```
 
 
 
 
+```
+Word:
+  Cảm ơn:     [
+                { 
+                  PATTERN: (_,A),
+                  LOCATION: (_,MOUTH),
+                  DIRECTION: (_,_) 
+                },
+                { 
+                  PATTERN: (_,B),
+                  LOCATION: (_,CHEST),
+                  DIRECTION: (_,FORWARD) 
+                }
+              ]
+
+  Tôi:        [
+                { 
+                  PATTERN: (_,C),
+                  LOCATION: (_,CHEST),
+                  DIRECTION: (_,BACKWARD) 
+                }
+              ]
+
+  Bạn:        [
+                { 
+                  PATTERN: (_,C),
+                  LOCATION: (_,CHEST),
+                  DIRECTION: (_,FORWARD) 
+                }
+              ]
+
+  Gia đình:   [
+                {
+                  PATTERN: (D,D),
+                  LOCATION: (CHEST,CHEST),
+                  DIRECTION: (UP,UP)
+                },
+                {
+                  PATTERN: (E,E),
+                  LOCATION: (CHEST,CHEST),
+                  DIRECTION: (DOWN,DOWN)
+                }
+              ]
+
+  Đồng hồ:    [
+                {
+                  PATTERN: (A,D),
+                  LOCATION: (CHEST,CHEST),
+                  DIRECTION: (DOWN,LEFT)
+                }
+              ]
+
+```
