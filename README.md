@@ -1,14 +1,14 @@
 # WORD DECODER USING BEAM SEARCH
 
 ## Todo
-[X] Alias name for pattern (Maybe latter)
-[X] Setup material for punish function (how much point to punish)
-[X] Implement punish function 
-[X] Implement function to get MxN matrix
-[ ] Construct dictionary
-[X] Implement beamsearch
-[ ] Implement beamsearch with CTC decode
-[ ] Magic to get better point
+- [X] Alias name for pattern (Maybe latter)
+- [X] Setup material for punish function (how much point to punish)
+- [X] Implement punish function 
+- [X] Implement function to get MxN matrix
+- [ ] Construct dictionary
+- [X] Implement beamsearch
+- [ ] Implement beamsearch with CTC decodE
+- [X] Magic to get better point
 
 ## Summarize:
 - Pattern : Alias with A,B,C
