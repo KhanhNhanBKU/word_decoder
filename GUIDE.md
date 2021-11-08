@@ -15,6 +15,7 @@
     + Tên của các pattern:
       Được hash lại dưới dạng A,B,C,D,E ..
         Ví dụ: Nắm -> A
+        Xem tại [Google Sheet](https://docs.google.com/spreadsheets/d/1wobS-_RUlKgN6tjd2wrLGVjX33iymA9AYrqemFEQlEI/edit?usp=sharing)
     + Location:
       5 location : HEAD, MOUTH, SHOULDER, CHEST, BELLY
     +Direction:
