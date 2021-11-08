@@ -1,5 +1,4 @@
-```
-  Label cho các word được soạn sẵn:
+Label cho các word được soạn sẵn:
     + Format:
       {
         PATTERN: (PATTERN_LEFT, PATTER_RIGHT),
@@ -60,6 +59,3 @@
 
     ......
   => 30 word, mỗi đứa 15 từ
-
-
-```
