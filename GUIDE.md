@@ -10,6 +10,13 @@ Label cho các word được soạn sẵn theo format sau:
     DIRECTION: (DIRECTION_LEFT, DIRECTION_RIGHT), 
 }
 ```
+
+1. Pattern
+Ví dụ: Nắm -> A
+Xem tại [Google Sheet Hand Pattern Recognition](https://docs.google.com/spreadsheets/d/1wobS-_RUlKgN6tjd2wrLGVjX33iymA9AYrqemFEQlEI/edit?usp=sharing)
+2. Location gồm 5 điểm : HEAD, MOUTH, SHOULDER, CHEST, BELLY
+3. Direction có 6 loại: UP, DOWN, RIGHT, LEFT, FORWARD, BACKWARD
+
 ví dụ như sau
 ```
 { 
@@ -18,12 +25,6 @@ ví dụ như sau
   "DIRECTION": ("_","_") 
 }
 ```
-
-1. Pattern
-Ví dụ: Nắm -> A
-Xem tại [Google Sheet Hand Pattern Recognition](https://docs.google.com/spreadsheets/d/1wobS-_RUlKgN6tjd2wrLGVjX33iymA9AYrqemFEQlEI/edit?usp=sharing)
-2. Location gồm 5 điểm : HEAD, MOUTH, SHOULDER, CHEST, BELLY
-3. Direction có 6 loại: UP, DOWN, RIGHT, LEFT, FORWARD, BACKWARD
 
 Các word khi label, cần thỏa
 - 1 word có thể có 1 hoặc nhiều bộ 3
