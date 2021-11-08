@@ -37,15 +37,16 @@ class Punish:
       input: 2 pattern
       output: score for pattern
     """
+    score = 100
     left_pattern, right_pattern = origin_pattern
     left_pattern_input, right_pattern_input = input_pattern
     
     if left_pattern == left_pattern_input and right_pattern == right_pattern_input:
-      return 100
+      return score
     elif left_pattern != left_pattern_input and right_pattern != right_pattern_input:
       return 0
     else:
-      return self.get_score_for_incorrect_pattern(origin_pattern,input_pattern)
+      return 50 + self.get_score_for_incorrect_pattern(origin_pattern,input_pattern)
 
 
   def get_score_for_incorrect_pattern(self,pattern, input_pattern):
@@ -76,11 +77,11 @@ class Punish:
     left_location, right_location = origin_location
     left_location_input, right_location_input = input_location
     if left_location == left_location_input and right_location == right_location_input:
-      return 50
+      return 100
     elif left_location == left_location_input and right_location != right_location_input:
-      return 25
+      return 50
     elif left_location != left_location_input and right_location == right_location_input:
-      return 25
+      return 50
     else:
       return 0
 
@@ -95,11 +96,11 @@ class Punish:
     left_direction, right_direction = origin_direction
     left_direction_input, right_direction_input = input_direction
     if left_direction == left_direction_input and right_direction == right_direction_input:
-      return 50
+      return 100
     elif left_direction == left_direction_input and right_direction != right_direction_input:
-      return 25
+      return 50
     elif left_direction != left_direction_input and right_direction == right_direction_input:
-      return 25
+      return 50
     else:
       return 0
 

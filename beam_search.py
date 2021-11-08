@@ -1,5 +1,5 @@
 from math import log
-from numpy import array
+import numpy as np
 
 from punish import Punish
 
@@ -34,7 +34,7 @@ data = [[0.1, 0.2, 0.3, 0.4, 0.5],
 		    [0.1, 0.2, 0.3, 0.4, 0.5],
 		    [0.5, 0.4, 0.3, 0.2, 0.1]]
 
-data = array(data)
+data = np.array(data)
 
 result = beam_search_decoder(data, 3)
 # print(result)
@@ -72,10 +72,13 @@ queue = [
       },
 ]
 
+data = []
 for i in queue:
-  result = []
   p = Punish()
-  result.append(p.punish(i))
-  print(result)
+  data.append(p.punish(i).tolist())
+
+result = beam_search_decoder(data, 3)
+print(result)
+
 
 
