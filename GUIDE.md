@@ -37,28 +37,28 @@ Các word khi label, cần thỏa
 
 => 30 word, mỗi đứa 15 từ
 
-1. [ ] Cảm ơn
-1. [ ] Tôi
-1. [ ] Bạn
+1. [x] Cảm ơn
+1. [x] Tôi
+1. [x] Bạn
 1. [ ] Gia đình
 1. [ ] Đồng hồ
 1. [ ] Ba
-1. [ ] Lái xe
-1. [ ] Đi làm
+1. [x] Lái xe
+1. [x] Đi làm
 1. [ ] Xe bus
 1. [ ] Dừng
 1. [ ] Ở đâu
-1. [ ] Mấy
+1. [x] Mấy
 1. [ ] Tuổi
 1. [ ] Có
 1. [ ] Người
-1. [ ] Ai
-1. [ ] Thích
-1. [ ] Ăn
+1. [x] Ai
+1. [x] Thích
+1. [x] Ăn
 1. [ ] Nho
 1. [ ] Không thích
 1. [ ] Màu
-1. [ ] Nào / Gì
+1. [x] Nào / Gì
 1. [ ] Bút bi
 1. [ ] Sống
 1. [ ] Thủ đô
