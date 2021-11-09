@@ -45,25 +45,26 @@ Các word khi label, cần thỏa
 1. [ ] Ba
 1. [x] Lái xe
 1. [x] Đi làm
-1. [ ] Xe bus
-1. [ ] Dừng
-1. [ ] Ở đâu
+1. [x] Xe bus
+1. [x] Dừng
+1. [x] Ở đâu
 1. [x] Mấy
-1. [ ] Tuổi
+1. [x] Tuổi
 1. [ ] Có
 1. [ ] Người
 1. [x] Ai
 1. [x] Thích
 1. [x] Ăn
 1. [ ] Nho
-1. [ ] Không thích
+1. [x] Không thích
 1. [ ] Màu
 1. [x] Nào / Gì
 1. [ ] Bút bi
-1. [ ] Sống
+1. [x] Sống
 1. [ ] Thủ đô
-1. [ ] Việt Nam
+1. [x] Việt Nam
 1. [ ] Hằng ngày
-1. [ ] Thức dậy
+1. [x] Thức dậy
+1. [x] Ngủ
 1. [ ] Lúc
-1. [ ] Giờ
+1. [x] Giờ

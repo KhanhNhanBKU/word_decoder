@@ -13,9 +13,11 @@
     "K": "nắm__trỏ__giữa--thẳng",
     "L": "chữ_L",
     "M": "nắm__cái--thẳng",
-    "O": "ok"
+    "O": "ok",
+    "V": "chữ_V"
   },
   "LOCATION": [
+    "FOREHEAD",
     "HEAD",
     "NECK",
     "MOUTH",
@@ -130,15 +132,15 @@
       {
         "PATTERN": [
           "_",
-          "_"
+          "G"
         ],
         "LOCATION": [
           "_",
-          "_"
+          "MOUTH"
         ],
         "DIRECTION": [
           "_",
-          "_"
+          "UP"
         ]
       }
     ],
@@ -233,48 +235,118 @@
     "Xe bus": [
       {
         "PATTERN": [
-          "_",
-          "_"
+          "G",
+          "G"
         ],
         "LOCATION": [
-          "_",
-          "_"
+          "CHEST",
+          "NECK"
         ],
         "DIRECTION": [
-          "_",
-          "_"
+          "FORWARD",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "BELLY"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
         ]
       }
     ],
     "Dừng": [
       {
         "PATTERN": [
-          "_",
-          "_"
+          "G",
+          "G"
         ],
         "LOCATION": [
-          "_",
-          "_"
+          "CHEST",
+          "NECK"
         ],
         "DIRECTION": [
-          "_",
-          "_"
+          "FORWARD",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
         ]
       }
     ],
     "Ở đâu": [
       {
         "PATTERN": [
-          "_",
-          "_"
+          "M",
+          "M"
         ],
         "LOCATION": [
-          "_",
-          "_"
+          "CHEST",
+          "CHEST"
         ],
         "DIRECTION": [
-          "_",
-          "_"
+          "RIGHT",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "M",
+          "M"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "LEFT",
+          "RIGHT"
         ]
       }
     ],
@@ -311,16 +383,16 @@
     "Tuổi": [
       {
         "PATTERN": [
-          "_",
-          "_"
+          "A",
+          "A"
         ],
         "LOCATION": [
-          "_",
-          "_"
+          "CHEST",
+          "CHEST"
         ],
         "DIRECTION": [
-          "_",
-          "_"
+          "FORWARD",
+          "FORWARD"
         ]
       }
     ],
@@ -466,15 +538,43 @@
       {
         "PATTERN": [
           "_",
-          "_"
+          "B"
         ],
         "LOCATION": [
           "_",
-          "_"
+          "CHEST"
         ],
         "DIRECTION": [
           "_",
-          "_"
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
         ]
       }
     ],
@@ -530,15 +630,29 @@
       {
         "PATTERN": [
           "_",
-          "_"
+          "A"
         ],
         "LOCATION": [
           "_",
-          "_"
+          "CHEST"
         ],
         "DIRECTION": [
           "_",
-          "_"
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "LEFT"
         ]
       }
     ],
@@ -562,15 +676,57 @@
       {
         "PATTERN": [
           "_",
-          "_"
+          "V"
         ],
         "LOCATION": [
           "_",
-          "_"
+          "FOREHEAD"
         ],
         "DIRECTION": [
           "_",
-          "_"
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "V"
+        ],
+        "LOCATION": [
+          "_",
+          "MOUTH"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "V"
+        ],
+        "LOCATION": [
+          "_",
+          "NECK"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "V"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
         ]
       }
     ],
@@ -594,15 +750,59 @@
       {
         "PATTERN": [
           "_",
-          "_"
+          "A"
         ],
         "LOCATION": [
           "_",
-          "_"
+          "FOREHEAD"
         ],
         "DIRECTION": [
           "_",
-          "_"
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "L"
+        ],
+        "LOCATION": [
+          "_",
+          "FOREHEAD"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      }
+    ],
+    "Ngủ": [
+      {
+        "PATTERN": [
+          "_",
+          "L"
+        ],
+        "LOCATION": [
+          "_",
+          "FOREHEAD"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "I"
+        ],
+        "LOCATION": [
+          "_",
+          "FOREHEAD"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
         ]
       }
     ],
@@ -625,16 +825,16 @@
     "Giờ": [
       {
         "PATTERN": [
-          "_",
-          "_"
+          "B",
+          "E"
         ],
         "LOCATION": [
-          "_",
-          "_"
+          "CHEST",
+          "CHEST"
         ],
         "DIRECTION": [
-          "_",
-          "_"
+          "UP",
+          "LEFT"
         ]
       }
     ]
