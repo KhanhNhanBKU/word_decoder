@@ -60,13 +60,19 @@ class Punish:
       if right_pattern_input in pattern_relative:
         score -= 10
       else:
-        score -= 20
+        if right_pattern_input == "_":
+          score -= 50
+        else:
+          score -= 20
     elif right_pattern == right_pattern_input:
       pattern_relative = database.get_hand_state_relation(left_pattern_input)
       if left_pattern_input in pattern_relative:
         score -= 10
       else:
-        score -= 20
+        if left_pattern_input == "_":
+          score -= 50
+        else:
+          score -= 20
     return score
 
   def process_location(self, origin_location, input_location):
@@ -105,8 +111,12 @@ class Punish:
       return 0
 
   def soft_max(self, score_array):
-    array = np.array(score_array)
-    return np.exp(array) / np.sum(np.exp(array), axis=0)
+    e_x = np.exp(score_array - np.max(score_array)) 
+    return e_x / e_x.sum(axis=0) 
+
+  def CTC(self):
+    
+    pass
 
 
 # p = Punish()

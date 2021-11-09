@@ -73,12 +73,21 @@ queue = [
 ]
 
 data = []
+THRESHOLD = 0.4
 for i in queue:
   p = Punish()
-  data.append(p.punish(i).tolist())
+  score_array = p.punish(i).tolist()
+  # for j in range(len(score_array)):
+  #   if score_array[j] < THRESHOLD:
+  #     score_array[j] = 0
+  data.append(score_array)
+  # data.append(p.punish(i))
+
+# for i in data:
+#   print(i)
 
 result = beam_search_decoder(data, 3)
-print(result)
+print(result[0][0])
 
 
 
