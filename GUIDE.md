@@ -42,7 +42,7 @@ Các word khi label, cần thỏa
 1. [x] Bạn
 1. [ ] Gia đình
 1. [ ] Đồng hồ
-1. [ ] Ba
+1. [x] Ba
 1. [x] Lái xe
 1. [x] Đi làm
 1. [x] Xe bus
