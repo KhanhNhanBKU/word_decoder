@@ -14,14 +14,6 @@
     "L": "nắm__cái--thẳng",
     "M": "ok"
   },
-  "DIRECTION": [
-    "UP",
-    "DOWN",
-    "LEFT",
-    "RIGHT",
-    "FORWARD",
-    "BACKWARD"
-  ],
   "LOCATION": [
     "HEAD",
     "MOUTH",
@@ -29,20 +21,42 @@
     "CHEST",
     "BELLY"
   ],
+  "DIRECTION": [
+    "UP",
+    "DOWN",
+    "LEFT",
+    "RIGHT",
+    "FORWARD",
+    "INWARD"
+  ],
   "words": {
     "Cảm ơn": [
       {
         "PATTERN": [
           "_",
-          "_"
+          "A"
         ],
         "LOCATION": [
           "_",
-          "_"
+          "MOUTH"
         ],
         "DIRECTION": [
           "_",
-          "_"
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "SHOULDER"
+        ],
+        "DIRECTION": [
+          "_",
+          "FORWARD"
         ]
       }
     ],
@@ -50,15 +64,15 @@
       {
         "PATTERN": [
           "_",
-          "_"
+          "F"
         ],
         "LOCATION": [
           "_",
-          "_"
+          "CHEST"
         ],
         "DIRECTION": [
           "_",
-          "_"
+          "INWARD"
         ]
       }
     ],
