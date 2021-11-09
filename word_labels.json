@@ -1,5 +1,5 @@
 {
-  "pattern_mapping": {
+  "PATTERN": {
     "A": "nắm",
     "B": "xòe",
     "C": "chữ_C",
@@ -14,36 +14,501 @@
     "L": "nắm__cái--thẳng",
     "M": "ok"
   },
+  "DIRECTION": [
+    "UP",
+    "DOWN",
+    "LEFT",
+    "RIGHT",
+    "FORWARD",
+    "BACKWARD"
+  ],
+  "LOCATION": [
+    "HEAD",
+    "MOUTH",
+    "SHOULDER",
+    "CHEST",
+    "BELLY"
+  ],
   "words": {
-    "Cảm ơn": [],
-    "Tôi": [],
-    "Bạn": [],
-    "Gia đình": [],
-    "Đồng hồ": [],
-    "Ba": [],
-    "Lái xe": [],
-    "Đi làm": [],
-    "Xe bus": [],
-    "Dừng": [],
-    "Ở đâu": [],
-    "Mấy": [],
-    "Tuổi": [],
-    "Có": [],
-    "Người": [],
-    "Ai": [],
-    "Thích": [],
-    "Ăn ": [],
-    "Nho": [],
-    "Không thích": [],
-    "Màu": [],
-    "Nào / Gì": [],
-    "Bút bi": [],
-    "Sống": [],
-    "Thủ đô": [],
-    "Việt Nam": [],
-    "Hằng ngày": [],
-    "Thức dậy": [],
-    "Lúc": [],
-    "Giờ": []
+    "Cảm ơn": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Tôi": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Bạn": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Gia đình": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Đồng hồ": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Ba": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Lái xe": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Đi làm": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Xe bus": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Dừng": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Ở đâu": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Mấy": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Tuổi": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Có": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Người": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Ai": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Thích": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Ăn ": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Nho": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Không thích": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Màu": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Nào / Gì": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Bút bi": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Sống": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Thủ đô": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Việt Nam": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Hằng ngày": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Thức dậy": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Lúc": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Giờ": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ]
   }
 }
