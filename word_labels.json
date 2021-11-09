@@ -1,0 +1,842 @@
+{
+  "PATTERN": {
+    "A": "nắm",
+    "B": "xòe",
+    "C": "chữ_C",
+    "D": "chụm",
+    "E": "nắm__cái--ngang",
+    "F": "nắm__trỏ",
+    "G": "duỗi",
+    "H": "nắm__trỏ--móc",
+    "I": "nắm__cái__trỏ--chụm",
+    "J": "nắm__trỏ--ngang__út--thẳng",
+    "K": "nắm__trỏ__giữa--thẳng",
+    "L": "chữ_L",
+    "M": "nắm__cái--thẳng",
+    "O": "ok",
+    "V": "chữ_V"
+  },
+  "LOCATION": [
+    "FOREHEAD",
+    "HEAD",
+    "NECK",
+    "MOUTH",
+    "SHOULDER",
+    "CHEST",
+    "BELLY"
+  ],
+  "DIRECTION": [
+    "UP",
+    "DOWN",
+    "LEFT",
+    "RIGHT",
+    "FORWARD",
+    "INWARD"
+  ],
+  "words": {
+    "Cảm ơn": [
+      {
+        "PATTERN": [
+          "_",
+          "A"
+        ],
+        "LOCATION": [
+          "_",
+          "MOUTH"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "SHOULDER"
+        ],
+        "DIRECTION": [
+          "_",
+          "FORWARD"
+        ]
+      }
+    ],
+    "Tôi": [
+      {
+        "PATTERN": [
+          "_",
+          "F"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "INWARD"
+        ]
+      }
+    ],
+    "Bạn": [
+      {
+        "PATTERN": [
+          "_",
+          "F"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "FORWARD"
+        ]
+      }
+    ],
+    "Gia đình": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Đồng hồ": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Ba": [
+      {
+        "PATTERN": [
+          "_",
+          "G"
+        ],
+        "LOCATION": [
+          "_",
+          "MOUTH"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      }
+    ],
+    "Lái xe": [
+      {
+        "PATTERN": [
+          "A",
+          "A"
+        ],
+        "LOCATION": [
+          "MOUTH",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "FORWARD"
+        ]
+      },
+      {
+        "PATTERN": [
+          "A",
+          "A"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "MOUTH"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "FORWARD"
+        ]
+      },
+      {
+        "PATTERN": [
+          "A",
+          "A"
+        ],
+        "LOCATION": [
+          "MOUTH",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "FORWARD"
+        ]
+      }
+    ],
+    "Đi làm": [
+      {
+        "PATTERN": [
+          "A",
+          "A"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "FORWARD"
+        ]
+      },
+      {
+        "PATTERN": [
+          "A",
+          "A"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "MOUTH"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "FORWARD"
+        ]
+      },
+      {
+        "PATTERN": [
+          "A",
+          "A"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "FORWARD"
+        ]
+      }
+    ],
+    "Xe bus": [
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "NECK"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "BELLY"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
+        ]
+      }
+    ],
+    "Dừng": [
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "NECK"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "G",
+          "G"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "LEFT"
+        ]
+      }
+    ],
+    "Ở đâu": [
+      {
+        "PATTERN": [
+          "M",
+          "M"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "RIGHT",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "M",
+          "M"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "LEFT",
+          "RIGHT"
+        ]
+      }
+    ],
+    "Mấy": [
+      {
+        "PATTERN": [
+          "_",
+          "A"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "FORWARD"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "FORWARD"
+        ]
+      }
+    ],
+    "Tuổi": [
+      {
+        "PATTERN": [
+          "A",
+          "A"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "FORWARD"
+        ]
+      }
+    ],
+    "Có": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Người": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Ai": [
+      {
+        "PATTERN": [
+          "_",
+          "M"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "M"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "M"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "RIGHT"
+        ]
+      }
+    ],
+    "Thích": [
+      {
+        "PATTERN": [
+          "_",
+          "G"
+        ],
+        "LOCATION": [
+          "_",
+          "NECK"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "G"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      }
+    ],
+    "Ăn ": [
+      {
+        "PATTERN": [
+          "_",
+          "D"
+        ],
+        "LOCATION": [
+          "_",
+          "MOUTH"
+        ],
+        "DIRECTION": [
+          "_",
+          "INWARD"
+        ]
+      }
+    ],
+    "Nho": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Không thích": [
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      }
+    ],
+    "Màu": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Nào / Gì": [
+      {
+        "PATTERN": [
+          "M",
+          "M"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "FORWARD",
+          "FORWARD"
+        ]
+      }
+    ],
+    "Bút bi": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Sống": [
+      {
+        "PATTERN": [
+          "_",
+          "A"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "LEFT"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "B"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "LEFT"
+        ]
+      }
+    ],
+    "Thủ đô": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Việt Nam": [
+      {
+        "PATTERN": [
+          "_",
+          "V"
+        ],
+        "LOCATION": [
+          "_",
+          "FOREHEAD"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "V"
+        ],
+        "LOCATION": [
+          "_",
+          "MOUTH"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "V"
+        ],
+        "LOCATION": [
+          "_",
+          "NECK"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "V"
+        ],
+        "LOCATION": [
+          "_",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      }
+    ],
+    "Hằng ngày": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Thức dậy": [
+      {
+        "PATTERN": [
+          "_",
+          "A"
+        ],
+        "LOCATION": [
+          "_",
+          "FOREHEAD"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "L"
+        ],
+        "LOCATION": [
+          "_",
+          "FOREHEAD"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      }
+    ],
+    "Ngủ": [
+      {
+        "PATTERN": [
+          "_",
+          "L"
+        ],
+        "LOCATION": [
+          "_",
+          "FOREHEAD"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      },
+      {
+        "PATTERN": [
+          "_",
+          "I"
+        ],
+        "LOCATION": [
+          "_",
+          "FOREHEAD"
+        ],
+        "DIRECTION": [
+          "_",
+          "UP"
+        ]
+      }
+    ],
+    "Lúc": [
+      {
+        "PATTERN": [
+          "_",
+          "_"
+        ],
+        "LOCATION": [
+          "_",
+          "_"
+        ],
+        "DIRECTION": [
+          "_",
+          "_"
+        ]
+      }
+    ],
+    "Giờ": [
+      {
+        "PATTERN": [
+          "B",
+          "E"
+        ],
+        "LOCATION": [
+          "CHEST",
+          "CHEST"
+        ],
+        "DIRECTION": [
+          "UP",
+          "LEFT"
+        ]
+      }
+    ]
+  }
+}
