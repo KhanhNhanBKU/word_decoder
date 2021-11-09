@@ -37,34 +37,34 @@ Các word khi label, cần thỏa
 
 => 30 word, mỗi đứa 15 từ
 
-1. [x] Cảm ơn
-1. [x] Tôi
-1. [x] Bạn
-1. [ ] Gia đình
-1. [ ] Đồng hồ
-1. [x] Ba
-1. [x] Lái xe
-1. [x] Đi làm
-1. [x] Xe bus
-1. [x] Dừng
-1. [x] Ở đâu
-1. [x] Mấy
-1. [x] Tuổi
-1. [ ] Có
-1. [ ] Người
-1. [x] Ai
-1. [x] Thích
-1. [x] Ăn
-1. [ ] Nho
-1. [x] Không thích
-1. [ ] Màu
-1. [x] Nào / Gì
-1. [ ] Bút bi
-1. [x] Sống
-1. [ ] Thủ đô
-1. [x] Việt Nam
-1. [ ] Hằng ngày
-1. [x] Thức dậy
-1. [x] Ngủ
-1. [ ] Lúc
-1. [x] Giờ
+1.  [x] Cảm ơn
+2.  [x] Tôi
+3.  [x] Bạn
+4.  [ ] Gia đình
+5.  [ ] Đồng hồ
+6.  [x] Ba
+7.  [x] Lái xe
+8.  [x] Đi làm
+9.  [x] Xe bus
+10. [x] Dừng
+11. [x] Ở đâu
+12. [x] Mấy
+13. [x] Tuổi
+14. [ ] Có
+15. [ ] Người
+16. [x] Ai
+17. [x] Thích
+18. [x] Ăn
+19. [ ] Nho
+20. [x] Không thích
+21. [ ] Màu
+22. [x] Nào / Gì
+23. [ ] Bút bi
+24. [x] Sống
+25. [ ] Thủ đô
+26. [x] Việt Nam
+27. [ ] Hằng ngày
+28. [x] Thức dậy
+29. [x] Ngủ
+30. [ ] Lúc
+31. [x] Giờ
