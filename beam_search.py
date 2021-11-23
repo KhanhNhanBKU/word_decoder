@@ -66,8 +66,8 @@ queue = [
         "DIRECTION": ("_","_") 
       },
       { 
-        "PATTERN": ("_","_"),
-        "LOCATION": ("_","_"),
+        "PATTERN": ("_","C"),
+        "LOCATION": ("MOUTH","_"),
         "DIRECTION": ("_","_") 
       },
 ]
@@ -83,8 +83,8 @@ for i in queue:
   data.append(score_array)
   # data.append(p.punish(i))
 
-# for i in data:
-#   print(i)
+for i in data:
+  print(i)
 
 result = beam_search_decoder(data, 3)
 print(result[0][0])

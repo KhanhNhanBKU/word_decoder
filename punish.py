@@ -56,6 +56,8 @@ class Punish:
     database = Database()
     score = 50
     if left_pattern == left_pattern_input:
+      if left_pattern_input == "_":
+        score -= 20
       pattern_relative = database.get_hand_state_relation(right_pattern_input)
       if right_pattern_input in pattern_relative:
         score -= 10
@@ -65,6 +67,8 @@ class Punish:
         else:
           score -= 20
     elif right_pattern == right_pattern_input:
+      if right_pattern_input == "_":
+        score -= 20
       pattern_relative = database.get_hand_state_relation(left_pattern_input)
       if left_pattern_input in pattern_relative:
         score -= 10
@@ -117,6 +121,7 @@ class Punish:
   def CTC(self):
     
     pass
+
 
 
 # p = Punish()
