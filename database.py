@@ -1,57 +1,56 @@
 class Database:
   def __init__(self) -> None:
-    PATTERN = 'PATTERN'
-    LOCATION = 'LOCATION'
-    DIRECTION = 'DIRECTION'
-    A = 'A'
-    B = 'B'
-    C = 'C'
-    D = 'D'
-    MOUTH = 'MOUTH'
-    CHEST = 'CHEST'
-    DOWN = 'DOWN'
-    FORWARD = 'FORWARD'
-    BACKWARD = 'BACKWARD'
-    _ = '_'
-    LEFT = 'LEFT'
 
     self.database = [
-      { 
-        PATTERN: (_,A),
-        LOCATION: (_,MOUTH),
-        DIRECTION: (_,_) 
-      },
-      { 
-        PATTERN: (_,B),
-        LOCATION: (_,CHEST),
-        DIRECTION: (_,FORWARD) 
-      },
-      { 
-        PATTERN: (_,C),
-        LOCATION: (_,CHEST),
-        DIRECTION: (_,BACKWARD) 
-      },
-      { 
-        PATTERN: (_,C),
-        LOCATION: (_,CHEST),
-        DIRECTION: (_,FORWARD) 
+      {
+        "PATTERN": ["_","F"],
+        "LOCATION": ["_","_"],
+        "DIRECTION": ["_","INWARD"]
       },
       {
-        PATTERN: (A,D),
-        LOCATION: (CHEST,CHEST),
-        DIRECTION: (DOWN,LEFT)
+        "PATTERN": ["_","F"],
+        "LOCATION": ["_", "_"],
+        "DIRECTION": ["_","FORWARD"]
+      },
+      {
+        "PATTERN": ["_","D"],
+        "LOCATION": ["_","MOUTH"],
+        "DIRECTION": ["_","_"]
+      },
+      {
+        "PATTERN": ["_","B"],
+        "LOCATION": ["_","SHOULDER"],
+        "DIRECTION": ["_","_"]
+      },
+      {
+        "PATTERN": ["_", '_'],
+        "LOCATION": ["_","_"],
+        "DIRECTION": ["_","_"],
       }
     ]
+
+    self.word_database = {
+      "cảm_ơn" : [2,3],
+      "tôi": [1],
+      "bạn": [0]
+    }
+    
+
   def get_database(self) -> list:
     return self.database
+  
+  def get_word_database(self) -> list:
+    return self.word_database
 
   def get_hand_state_relation(self, input):
     data = {
-      'A': ['D','E'],
-      'B': [],
+      'A': [],
+      'B': ["G","D"],
       'C': [],
-      'D': ['A','E'],
-      'E': ['A','D'],
+      'D': ["Q,","G","C","M","B"],
+      'E': [],
+      'F': [],
+      "G": ["B"],
       '_': [],
     }
 

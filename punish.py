@@ -27,8 +27,11 @@ class Punish:
       
       score = score_pattern + score_location + score_direction
 
-      score_array.append(score)
-
+      if score > 150:
+        score_array.append(score)
+      else:
+        score_array.append(0)
+    
     result = self.soft_max(score_array)
     return result
 
